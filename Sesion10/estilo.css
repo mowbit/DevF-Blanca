@@ -2,8 +2,9 @@ body{
     height: 100%;
     width: 80%;
     margin: auto;
-    color: white;
-    background-color: #292D2D;
+    color: #292D2D;
+    background-image:url(imagen/white-waves.png);
+    background-attachment: fixed; 
 }
 
 

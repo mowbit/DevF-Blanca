@@ -1,0 +1,33 @@
+.elDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+}
+
+.container{
+    position: relative;
+}
+
+#elem-1{
+    
+    background-color:beige;
+    position: relative;
+}
+
+#elem-2{
+    background-color:bisque;
+    position: absolute;
+    z-index: 2;
+    top:100px;
+    left: 160px;
+}
+
+#elem-3{
+    background-color:coral;
+    position: absolute;
+    z-index: 2;
+    top:-180px;
+    left: 350px;
+}
